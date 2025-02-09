@@ -2,10 +2,10 @@
 # save the image using png function 
 png("Anamza_mapA.png", width=2244, height=2244)
 
-# load the pacakges 
+# Load the pacakges 
 library(maps)
 
-# read the two files in 
+# Read the two files in 
 cast <- read.csv("CAST_lat_long.csv")
 dom <- read.csv("DOM_lat_long.csv") 
 
